@@ -1,4 +1,11 @@
-﻿class Account
+﻿Account account = new Account();
+
+account.Name = "Main";
+account.Account_number = 1;
+account.Amount = 100;
+
+
+class Account
 {
     private string name;
     private int account_number;
